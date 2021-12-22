@@ -161,7 +161,7 @@ class Slideshow extends Component {
     return (
       <div
         style={{
-          position: 'absolute',
+          position: 'relative',
           height: this.props.height || '100%',
           width: this.props.width || '100%'
         }}
